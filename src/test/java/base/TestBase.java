@@ -20,6 +20,7 @@ public class TestBase {
 	public static Properties prop;
 	
 	public TestBase(){
+		System.out.println("in testbase constructor");
 		try {
 			prop = new Properties();
 			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\test\\java\\resources\\config\\config.properties");
