@@ -14,6 +14,7 @@ public class HomePage extends TestBase{
 	WebElement username_link;
 		
 	public HomePage() {
+		System.out.println("constructor of homepage");
 		PageFactory.initElements(driver, this);
 	}
 	
